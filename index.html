@@ -1,0 +1,40 @@
+<!docType html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <h1>To-Do List</h1>
+      <input
+        type="text"
+        placeholder="Search todos"
+      />
+      <button class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </header>
+    <section>
+      <form>
+        <label for="title">Title</label>
+        <input
+          type="text"
+          name="title"
+        />
+        <label for="body`">Body</label>
+        <input
+          type="text"
+          name="body"
+        />
+        <button class="add-btn">Add</button>
+      </form>
+    </section>
+    <hr/>
+    <section class="list-container">
+      <h2>To Do:</h2>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
